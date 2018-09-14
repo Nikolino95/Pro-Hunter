@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string-array name="lovNa">
+        <item>Lov na jelene</item>
+        <item>Lov na divlje svinje</item>
+        <item>Lov na zeceve</item>
+        <item>Lov na fazane</item>
+        <item>Lov na medvede</item>
+    </string-array>
+</resources>

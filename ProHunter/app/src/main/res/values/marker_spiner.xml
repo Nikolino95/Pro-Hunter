@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="markeri">
+        <item>Opasnost</item>
+        <item>Logor</item>
+        <item>Medved</item>
+        <item>Jelen</item>
+        <item>Divlja svinja</item>
+        <item>Zec</item>
+        <item>Fazan</item>
+        <item>Lisica</item>
+        <item>Vuk</item>
+        <item>Izvor</item>
+        <item>Pecina</item>
+        <item>Ulov</item>
+    </string-array>
+</resources>

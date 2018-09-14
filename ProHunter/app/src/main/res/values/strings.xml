@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ProHunter</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="ConfirmPassword">Confirm Password</string>
+    <string name="Email">Email</string>
+    <string name="Name">Name</string>
+    <string name="Lastname">Last name</string>
+    <string name="Phone">Phone</string>
+    <string name="Address">Address</string>
+    <string name="Prijatelji">Prijatelji</string>
+    <string name="Ime">Ime</string>
+    <string name="Prezime">Prezime</string>
+    <string name="Telefon">Telefon</string>
+    <string name="Poeni">Poeni</string>
+    <string name="title_activity_bezveze">bezveze</string>
+    <string name="title_home">Home</string>
+    <string name="title_mapa">Mapa</string>
+    <string name="title_bluetooth">Bluetooth</string>
+    <string name="title_activity_bezveze1">bezveze1</string>
+    <string name="title_activity_nesto">Map</string>
+    <string name="title_profil">Profil</string>
+    <string name="DodajDogadjaj">Dodaj dogadjaj</string>
+    <string name="prijaviSeZaDogadjaj">Ucestvuj</string>
+    <string name="title_activity_primer">primer</string>
+    <string name="title_activity_lista_prijatelja">ListaPrijatelja</string>
+</resources>

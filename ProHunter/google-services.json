@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "469183363007",
+    "firebase_url": "https://prohunter-60530.firebaseio.com",
+    "project_id": "prohunter-60530",
+    "storage_bucket": "prohunter-60530.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:469183363007:android:5c67ac6ef589d579",
+        "android_client_info": {
+          "package_name": "com.example.nikola.prohunter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "469183363007-jdgfchcq0a0mvang1ljphkm8l5aagvuj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLlPblGcDP_fzjzsr2QfWQdGtSs6xNL-Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

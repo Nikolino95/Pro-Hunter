@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addEvent"
+    android:background="#F3F2E8">
+
+
+    <Spinner
+        android:id="@+id/spiner"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="106dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginRight="106dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="41dp"
+        android:gravity="center_horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/slikaEvent"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="64dp"
+        android:src="@drawable/avatar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spiner" />
+
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginLeft="141dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="36dp"
+        android:text="Datum"
+        app:layout_constraintEnd_toStartOf="@+id/dateImage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/slikaEvent" />
+
+    <ImageView
+        android:id="@+id/dateImage"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginRight="104dp"
+        android:layout_marginTop="36dp"
+        android:clickable="true"
+        android:src="@drawable/date_picker"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/slikaEvent" />
+
+
+    <TextView
+        android:id="@+id/timeT"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginLeft="141dp"
+        android:layout_marginRight="34dp"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="29dp"
+        android:text="Vreme"
+        app:layout_constraintEnd_toStartOf="@+id/timeImage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/date" />
+
+    <ImageView
+        android:id="@+id/timeImage"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="106dp"
+        android:layout_marginRight="106dp"
+        android:layout_marginTop="29dp"
+        android:clickable="true"
+        android:src="@drawable/clock"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dateImage" />
+
+    <fragment
+        android:id="@+id/place_autocomplete_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"
+        />
+
+
+    <Button
+        android:id="@+id/dodajDogadjaj"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="106dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginRight="106dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="46dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timeT"
+        android:background="@drawable/dugme"
+        android:text="@string/DodajDogadjaj"
+        android:shadowDx="0"
+        android:shadowDy="5"/>
+   <!-- <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginRight="76dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/timePicker"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"></DatePicker>
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"></TimePicker>-->
+
+
+</android.support.constraint.ConstraintLayout>

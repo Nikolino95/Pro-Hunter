@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".viewEvent">
+
+
+    <TextView
+        android:id="@+id/nazivDogadjajaPrikaz"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="131dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginRight="131dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/mestoDogadjajaPrikaz"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="131dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginRight="131dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nazivDogadjajaPrikaz" />
+
+    <ImageView
+        android:id="@+id/slikaEventPrikaz"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/avatar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mestoDogadjajaPrikaz" />
+
+
+    <TextView
+        android:id="@+id/datePrikaz"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="166dp"
+        android:layout_marginLeft="165dp"
+        android:layout_marginRight="166dp"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/slikaEventPrikaz" />
+
+
+
+
+<!--    <TextView
+        android:id="@+id/timePrikaz"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginLeft="141dp"
+        android:layout_marginRight="34dp"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="29dp"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/datePrikaz" />-->
+
+
+
+    <Button
+        android:id="@+id/ucestvujUDogadjajuPrikaz"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="106dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginRight="106dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="46dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/datePrikaz"
+        android:background="@drawable/dugme"
+        android:text="@string/prijaviSeZaDogadjaj"
+        android:shadowDx="0"
+        android:shadowDy="5" />
+</android.support.constraint.ConstraintLayout>

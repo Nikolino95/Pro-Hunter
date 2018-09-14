@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "787557619018",
+    "firebase_url": "https://prohunter-56057.firebaseio.com",
+    "project_id": "prohunter-56057",
+    "storage_bucket": "prohunter-56057.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787557619018:android:5c67ac6ef589d579",
+        "android_client_info": {
+          "package_name": "com.example.nikola.prohunter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787557619018-t460r6tre2s5p78cf2j0iof0b3u1seig.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nikola.prohunter",
+            "certificate_hash": "ee7c138f5316c3038769cafc2bce76b14510a56f"
+          }
+        },
+        {
+          "client_id": "787557619018-baspchgjoc4nr6s9g55b238f8ens2246.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATAZHeh5x2wSQvn8arTpfKOQtdoQu6I8U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "787557619018-baspchgjoc4nr6s9g55b238f8ens2246.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

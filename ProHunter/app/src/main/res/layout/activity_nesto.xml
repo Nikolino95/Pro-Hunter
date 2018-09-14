@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F2E8">
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".nesto"
+    android:id="@+id/nestoLayot"
+    >
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".nesto" />
+
+
+        <Button
+            android:id="@+id/fabx"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="top|right"
+            android:background="@drawable/icon_close"
+            android:visibility="invisible"
+            />
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="42dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabplus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_margin"
+            android:layout_marginBottom="10dp"
+            android:src="@android:drawable/ic_input_add"
+            app:rippleColor="@null"
+            android:background="@android:color/transparent"
+            style="?android:attr/borderlessButtonStyle"
+            android:clickable="true"
+            />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fablupa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|end|bottom"
+        android:src="@android:drawable/ic_search_category_default"
+        android:layout_margin="@dimen/fab_margin"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+       app:layout_anchor="@id/fabplus"
+        app:layout_anchorGravity="left|bottom"
+        android:clickable="true"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabfilter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:layout_marginEnd="0dp"
+        android:layout_marginTop="-10dp"
+        android:src="@drawable/svi_korisnici"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        app:layout_anchor="@id/fablupa"
+        app:layout_anchorGravity="left|bottom"
+        android:clickable="true"/>
+    </android.support.design.widget.CoordinatorLayout>
+</android.support.design.widget.CoordinatorLayout>
+    <android.support.design.widget.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginTop="8dp"
+        android:background="#390B0B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nestoLayot"
+        app:layout_constraintVertical_bias="1.0"
+        app:menu="@menu/navigation"
+        android:id="@+id/barnesto">
+
+    </android.support.design.widget.BottomNavigationView>
+
+</android.support.constraint.ConstraintLayout>
